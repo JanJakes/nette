@@ -29,7 +29,7 @@
 		"nette/mail": ">=2.2.0",
 		"nette/neon": ">=2.2.0",
 		"nette/php-generator": ">=2.2.0",
-		"nette/reflection": ">=2.2.0",
+		"nette/reflection": "dev-master",
 		"nette/robot-loader": ">=2.2.0",
 		"nette/safe-stream": ">=2.2.0",
 		"nette/security": ">=2.2.0",
@@ -50,5 +50,11 @@
 		"branch-alias": {
 			"dev-master": "2.3-dev"
 		}
-	}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/JanJakes/reflection"
+		}
+	]
 }
